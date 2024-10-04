@@ -1,0 +1,81 @@
+/* Definindo a aparência básica da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3e73b1; /* Cor de fundo ajustada para um tom de azul mais escuro */
+}
+
+/* Configurando o estilo da caixa principal, com layout flex e centralização */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px; /* Largura aumentada para mais espaço */
+    height: 480px; /* Altura ajustada */
+    padding: 35px; /* Padding ligeiramente reduzido */
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda com opacidade ajustada para 30% */
+    margin: 25px auto; /* Margem superior e inferior ampliada */
+    background-color: rgba(240, 248, 255, 0.15); /* Opacidade do fundo ajustada para maior visibilidade */
+}
+
+/* Estilo do título principal da página */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px; /* Espaçamento inferior reduzido para otimizar o layout */
+}
+
+/* Estilo do título da seção de listagem */
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px; /* Espaçamento superior ajustado */
+}
+
+/* Configuração do formulário de cadastro */
+form {
+    margin-bottom: 20px; /* Margem inferior ajustada */
+    text-align: center;
+}
+
+/* Estilo dos rótulos dentro do formulário */
+label {
+    color: #ffffff;
+    display: inline-block;
+    width: 120px; /* Largura aumentada para melhor alinhamento */
+    text-align: right;
+}
+
+/* Estilo dos campos de entrada do formulário */
+input {
+    margin-bottom: 10px; /* Espaçamento inferior ajustado */
+}
+
+/* Estilização da tabela de alunos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px; /* Aumento no espaçamento superior para separação da tabela */
+}
+
+/* Estilo das células da tabela, incluindo cabeçalhos e dados */
+table, th, td {
+    border: 1px solid #444; /* Cor da borda alterada para um tom de cinza mais escuro */
+}
+
+th, td {
+    padding: 15px; /* Padding aumentado para tornar o conteúdo mais espaçado */
+    text-align: center;
+}
+
+/* Estilo do cabeçalho da tabela */
+th {
+    background-color: #d0d0d0; /* Cor de fundo alterada para um tom de cinza mais suave */
+}
+
+/* Estilo dos links da página */
+a {
+    color: #111111; /* Cor do link ajustada para preto mais escuro */
+    text-decoration: none; /* Sublinhado dos links mantido removido */
+}
